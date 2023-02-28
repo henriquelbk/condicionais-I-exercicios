@@ -1,8 +1,8 @@
 const confereNacionalidade = () => {
-    const nacionalidade = prompt('qual a sua nacionalidade?')
+    const nacionalidade = prompt('qual a sua nacionalidade?').toLowerCase()
 
     if (nacionalidade === 'brasileira') {
-        console.log(nacionalidade)
+        console.log(nacionalidade.toLowerCase())
     } else if (nacionalidade === 'argentina') {
         console.log(nacionalidade)
     } else if (nacionalidade === 'uruguaia') {
