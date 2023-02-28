@@ -1,7 +1,4 @@
-const fazOq = () => {
-    const idade = 356
-    const em = false
-    const facool = true
+const fazOq = (idade, em, facool) => {
     
     if (idade >= 18) {
         console.log('A pessoa é maior de idade')
@@ -20,4 +17,5 @@ const fazOq = () => {
     }
 }
 
-fazOq()
+fazOq(31, true, false)
+
